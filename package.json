@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rodrigo-rac2/js-10days/issues"
   },
-  "homepage": "https://github.com/rodrigo-rac2/js-10days#readme"
+  "homepage": "https://github.com/rodrigo-rac2/js-10days#readme",
+  "devDependencies": {
+    "console-read-write": "^0.1.1"
+  }
 }
