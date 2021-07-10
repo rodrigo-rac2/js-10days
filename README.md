@@ -2,4 +2,7 @@
 
 # day 0:
 Hello world: day0/helloworld
-Data types: day0/data types
+Data types: day0/data typesgit status
+
+# day 1
+Arithmetic Operators: day/operators1
