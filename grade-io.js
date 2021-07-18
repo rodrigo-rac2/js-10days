@@ -14,6 +14,8 @@ function getGrade(score) {
     grade = 'E';
   } else if (score <= 5 && score >= 0) {
     grade = 'F';
+  } else {
+    grade = "Invalid score";
   }
 
   return grade;
@@ -24,7 +26,7 @@ const main = async () => {
     // Read inputs
     io.write('Enter the score to get the grade: (\'X\' to eXit)');
     const score = await io.read();
-    if(score === 'X')
+    if(score.toLowerCase() === 'x')
       break;
     io.write('Grade is:');
     console.log(getGrade((score)))
